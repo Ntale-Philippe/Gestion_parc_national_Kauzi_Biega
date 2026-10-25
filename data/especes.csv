@@ -1,0 +1,5 @@
+id_espece,nom_commun,nom_scientifique,statut_uicn,cout_permis_usd,indice_rarete
+1,Gorille de Grauer,Gorilla beringei graueri,CR,400.00,10
+2,Chimpanzé de l'Est,Pan troglodytes schweinfurthii,EN,150.00,8
+3,Cercopithèque de Hamlyn,Cercopithecus hamlyni,VU,50.00,7
+4,Touraco du Ruwenzori,Ruwenzoriornis johnstoni,LC,30.00,4
