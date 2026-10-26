@@ -20,7 +20,7 @@ Les tables sont créées et chargées dans PostgreSQL. L'analyse commence par de
 
 Les indicateurs reposent sur des jointures entre la table des visites et les tables de référence, des agrégations, des expressions de table (CTE), des fonctions de fenêtre pour calculer des parts du total, et des filtres conditionnels. Deux erreurs de la première version ont été corrigées. Le comptage des alertes de sécurité multipliait les incidents à cause d'une jointure croisée. Et la recherche des meilleurs clients comparait le total d'un client à la moyenne d'une seule visite.
 
-La saisonnalité est comparée en chiffre d'affaires moyen par mois, pour que deux saisons de durées différentes restent comparables. Enfin, chaque résultat a été recalculé indépendamment en Python pour contrôler les requêtes.
+La saisonnalité est comparée en chiffre d'affaires moyen par mois, pour que deux saisons de durées différentes restent comparables. Enfin, chaque résultat a été recalculé indépendamment en Python pour contrôler les requêtes. J'utilise Claude, un assistant IA, pour m'aider dans ces vérifications.
 
 Les scripts sont dans le dossier sql : création des tables, chargement des données, puis analyse. Le générateur et les fichiers CSV sont dans le dossier data.
 
